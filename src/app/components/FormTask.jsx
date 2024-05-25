@@ -13,7 +13,7 @@ function FormTask() {
     e.preventDefault();
 
     const res = await fetch(
-      `https://tallerbackend-production.up.railway.app/api/tasks/`,
+      `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/tasks/`,
       {
         method: "POST",
         body: JSON.stringify({ vehiculo, dueño, falla }),
