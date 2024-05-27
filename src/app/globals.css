@@ -9,7 +9,7 @@ body{@apply  text-white;background-color: rgb(22, 35, 64);
     container:initial;
     
   }
-  
+  /
 }
 .imagen{object-fit: cover;
 z-index: -2;}
