@@ -8,7 +8,7 @@ function TaskCard({ task }) {
   const handleDelete = async (id) => {
     if (window.confirm("Quieres eliminar este turno?")) {
       const res = await fetch(
-        `${process.env.NEXT_PUBLIC_BACKEND_URL}api/tasks/${id}`,
+        `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/tasks/${id}`,
         {
           method: "DELETE",
         }
@@ -22,7 +22,7 @@ function TaskCard({ task }) {
   const handleTaskDone = async (id) => {
     console.log(id);
     const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BACKEND_URL}api/tasks/${id}/reparado/`,
+      `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/tasks/${id}/reparado/`,
       {
         method: "POST",
       }
