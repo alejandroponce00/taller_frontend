@@ -19,6 +19,8 @@ function HomePage() {
           // width={"560"}
           //height={"200"}
           fill={true}
+          priority={true}
+          
         />
         <FormTask />
         <ListTask />
