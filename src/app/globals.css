@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body{@apply  text-white;background-color: rgb(22, 35, 64);
+body{@apply  text-white;background-color: rgb(115, 118, 125);
   @media (max-width: 767px) {
-    background-color: black;
+    
     
     container:initial;
     
@@ -13,7 +13,7 @@ body{@apply  text-white;background-color: rgb(22, 35, 64);
 }
 .imagen{object-fit: cover;
 z-index: -2;}
-.divform{@media (max-width: 400px) {
+.divform{@media (max-width: 440px) {
   display: inline-block;
   
   
