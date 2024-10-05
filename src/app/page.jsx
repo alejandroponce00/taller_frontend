@@ -8,7 +8,7 @@ function HomePage() {
   return (
     <div className="  mx-5 ">
       <h1 className="titulo text-center p-8 max-sm:text-lg">
-        Administrador de Turnos Taller Mecanico
+        Turnos Taller Mecanico
       </h1>
       <div className="divform flex gap-x-10   md:flex-col  sm:flex-col">
         {" "}
