@@ -32,7 +32,7 @@ function TaskCard({ task }) {
     }
   };
   return (
-    <div className=" bg-slate-500 px-1 py-2 mb-2 rounded-md text-slate-200 flex justify-items-center items-center container ">
+    <div className=" bg-slate-800 px-1 py-2 mb-2 rounded-md text-slate-200 flex justify-items-center items-center container ">
       <div className="datos gap rounded-md to-black">
         <h2 className="text-center  ">
           <strong className="text-sky-400/100 p-5">Vehiculo:</strong> <br />

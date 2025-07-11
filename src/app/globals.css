@@ -27,6 +27,7 @@ display: inline-block;
 }
 .datos{@media (max-width: 780px) {
   display: inline-block;
+  
 
 
 }  
